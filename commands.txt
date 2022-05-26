@@ -1,0 +1,3 @@
+docker run -it -p 8080:8080 synedra/deploy
+export NG_CMD=prod - set a variable to tell NPM what environment to build after installing all the modules. 
+export MONGO_URL='mongodb://maestro:%232naweza@node-deploy-shard-00-00.hnnpi.mongodb.net:27017,node-deploy-shard-00-01.hnnpi.mongodb.net:27017,node-deploy-shard-00-02.hnnpi.mongodb.net:27017/node-deploy?ssl=true&replicaSet=atlas-o39fmk-shard-0&authSource=admin&retryWrites=true&w=majority'
